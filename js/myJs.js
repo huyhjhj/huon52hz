@@ -119,7 +119,7 @@ $('#yes').click(function() {
         if (result.value) {
             Swal.fire({
                 width: 900,
-                confirmButtonText: 'Chuận ời=)))',
+                confirmButtonText: 'oge con zê)',
                 background: '#fff url("img/iput-bg.jpg")',
                 title: 'kkkk bit mà=))))))',
                 text: "Nhắn tin mí tui đii",
