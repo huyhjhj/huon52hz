@@ -14,8 +14,8 @@ function firstQuestion(){
     
     $('.content').hide();
     Swal.fire({
-        title: 'Xin chào Giangxinhhhhh',
-        text: 'Tui có cái nì muốn hỏi Giangxinh trả lời thiệt nha',
+        title: 'Xin chào Ánh Xinhh',
+        text: 'A có cnay mún hỏi Ánh trả lời thiệt nha',
         imageUrl: 'img/cuteCat.jpg',
         imageWidth: 300,
         imageHeight: 300,
@@ -73,7 +73,7 @@ $('#no').click(() => {
 // generate text in input
 function textGenerate() {
     var n = "";
-    var text = " Tại vì Huy đẹp trai vl=)))))) ";
+    var text = " Tại vì a Huy đẹp trai vl=)))))) ";
     var a = Array.from(text);
     var textVal = $('#txtReason').val() ? $('#txtReason').val() : "";
     var count = textVal.length;
@@ -96,7 +96,7 @@ $('#yes').click(function() {
     var audio = new Audio('sound/tick.mp3');
     audio.play();
     Swal.fire({
-        title: 'Sao Giangxinhhh lại thíc tui nhẻ=))))',
+        title: 'Tại sao em Ánh lại thíc anh nhẻ=))))',
         html: true,
         width: 900,
         padding: '3em',
@@ -114,7 +114,7 @@ $('#yes').click(function() {
         cancelButtonColor: '#d33',
         confirmButtonColor: '#fe8a71',
         cancelButtonColor: '#f6cd61',
-        confirmButtonText: 'Gửi cho tui <3'
+        confirmButtonText: 'Gửi cho anhh <3'
     }).then((result) => {
         if (result.value) {
             Swal.fire({
@@ -122,7 +122,7 @@ $('#yes').click(function() {
                 confirmButtonText: 'oge con zê)',
                 background: '#fff url("img/iput-bg.jpg")',
                 title: 'kkkk bit mà=))))))',
-                text: "Nhắn tin mí tui đii",
+                text: "Nhắn tin mí anhh đii",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
                     window.location = 'http://fb.com/dhuyhjhj';
